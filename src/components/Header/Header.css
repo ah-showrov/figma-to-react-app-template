@@ -1,0 +1,129 @@
+.header__container {
+    width: 100%;
+    height: fit-content;
+    background-color: #F6F6F6;
+    padding: 70px 25px 100px 25px;
+
+}
+
+.header__inner__container {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+/* Header Left Side Style Start */
+
+.header__left {
+    flex: 1;
+    padding-top: 50px;
+}
+
+.header__heading {
+    font-size: 60px;
+    color: #1F1632;
+    line-height: 80px;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+.header__short__description {
+    margin: 20px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: .5px;
+    color: #606268;
+}
+
+.header__booking__button {
+    height: 50px;
+    width: 172px;
+    color: #FFFFFF;
+    background: #251D58;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    letter-spacing: .5px;
+
+}
+
+/* Header Right Side Style Start */
+.header__right {
+    flex: 1;
+    max-height: 500px;
+}
+
+.header__right__image {
+    width: 100%;
+    max-height: inherit;
+    display: block;
+}
+
+/*
+  _____________-----------------------_____________
+  _____________Media Query Style Start_____________
+  _____________-----------------------_____________
+
+*/
+
+@media only screen and (min-width:820px) and (max-width:990px) {
+
+    .header__left {
+        padding-top: 30px;
+    }
+
+    .header__short__description {
+        margin: 13px 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: .5px;
+        color: #606268;
+        padding-right: 30px;
+    }
+
+    .header__heading {
+        font-size: 50px;
+        line-height: 57px;
+    }
+
+    .header__right {
+        max-height: 400px;
+    }
+
+    .header__right__image {
+        max-height: inherit;
+    }
+
+}
+
+@media screen and (max-width:819px) {
+
+    .header__inner__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__left {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .header__heading {
+        text-align: center;
+    }
+
+    .header__right {
+        max-height: 500px;
+
+    }
+
+    .header__right__image {
+        max-height: inherit;
+    }
+}

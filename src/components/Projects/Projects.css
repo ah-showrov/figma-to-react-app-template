@@ -1,0 +1,42 @@
+.projects__container {
+    padding: 150px 25px 0;
+    text-align: center;
+}
+
+.projects__sub__heading {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #251D58;
+}
+
+.projects__main__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #1F1632;
+    margin-top: 12px;
+
+}
+
+.projects__flex__box {
+    padding-top: 80px;
+    display: flex;
+    max-width: 1200px;
+    height: fit-content;
+    margin: 0 auto;
+    column-gap: 25px;
+    flex-wrap:wrap;
+}
+
+@media only screen and (max-width:1024px) {
+    .projects__flex__box {
+      row-gap: 25px;
+    }
+}

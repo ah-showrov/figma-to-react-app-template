@@ -1,0 +1,21 @@
+.testimonials__container{
+   width: 100%;
+   background-color:#F6F6F6;
+   padding: 130px 25px;
+
+
+}
+.testimonials__heading{
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 50px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #1F1632;
+padding: 50px  0 70px;
+}
+.slider__setting{
+    max-width:1200px;
+    margin:0 auto;
+}
